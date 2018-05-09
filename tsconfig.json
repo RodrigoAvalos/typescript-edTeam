@@ -55,8 +55,19 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
   },
 
-  "files":[
-    "src/a.ts",
-    "src/b.ts"
+  // "files":[
+  //   "src/a.ts",
+  //   "src/b.ts"
+  // ]
+  
+  //Otra forma y para no escribir todos los archivos, puedo decir que todos los archivos ts
+
+  "include":[
+    "src/*.ts"
+  ],
+
+  "exclude":[
+    "src/primerScript.ts"
   ]
+
 }
